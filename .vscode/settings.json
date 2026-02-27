@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.indentSize": "tabSize",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.removeUnused": "always",
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "black-formatter.args": [
+        "--config",
+        "pyproject.toml"
+    ],
+    "editor.rulers": [
+        128
+    ],
+    "cSpell.enabled": false
+}

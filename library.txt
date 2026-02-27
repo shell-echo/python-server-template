@@ -1,0 +1,11 @@
+# code lint
+black: format code
+isort: sort imports
+autoflake: remove unuse import
+pyright: Static Type Checker for Python
+
+# server
+ipython: Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc.
+
+# utils
+click: Python composable command line interface toolkit

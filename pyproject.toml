@@ -1,0 +1,17 @@
+[tool.black]
+line-length = 128
+exclude = '''
+/venv/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 128
+force_single_line = true
+
+[tool.pyright]
+typeCheckingMode = "strict"
+exclude = ["venv", "test", "**/__pycache__", "**/node_modules", "**/.*"]
+ignore = ["annotationlib"]
+pythonVersion = "3.14"
+pythonPlatform = "Linux"
