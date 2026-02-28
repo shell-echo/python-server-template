@@ -1,3 +1,6 @@
-class Config:
-    def __init__(self):
-        pass
+import package
+from internal.config.application import Application
+
+
+class Config(package.config.Config):
+    application: Application
